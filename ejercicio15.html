@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Calificaciones</title>
+    <link href="css/ejercicio15.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Registro de Alumnos</h2>
+        
+        <table id="tablaAlumnos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Calificación</th>
+                    <th><button type="button" id="btnAgregar" class="btn-agregar">+</button></th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTabla">
+                <tr>
+                    <td><input type="text" class="input-nombre" placeholder="Ej. Eduardo"></td>
+                    <td><input type="number" class="input-calif" placeholder="0 - 100"></td>
+                    <td></td> 
+                </tr>
+            </tbody>
+        </table>
+
+        <button id="btnCalcular" class="btn-calcular">Calcular</button>
+
+        <div id="resultados">
+        </div>
+    </div>
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>

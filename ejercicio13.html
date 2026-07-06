@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Nacional Electoral</title>
+    <link href="/css/ejercicio13.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="contenedor-calculadora">
+        <h2>Instituto Nacional Electoral</h2>
+        
+        <div class="grupo-formulario">
+            <label for="inputEdad"> Ingresa tu edad:</label>
+            <input type="number" id="inputEdad" placeholder="Años cumplidos" min="0">
+            <div id="errorMensaje" class="mensaje-error">Por favor, ingresa una edad válida.</div>
+        </div>
+
+        <button id="btnConvertir">Verificar</button>
+
+        <div class="grupo-formulario">
+            <label for="inputResultado"> Decision:</label>
+            <input type="text" id="inputResultado" readonly placeholder="Resultado">
+        </div>
+    </div>
+    <script src="js/ejercicio13.js"></script>
+    <div>
+</body>
+</html>
